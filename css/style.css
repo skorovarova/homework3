@@ -1,15 +1,18 @@
 body {
   background-color: #F9F9F9;
+
 }
 .wrapper {
   margin: 0 auto;
-  padding: 0 46px;
+  padding-right:46px;
+  padding-left:46px;
   width: 968px;
-  height: 100vh;
+  height: 924px;
   background-color: #ffffff;
   font-family: 'Open Sans' , sans-serif;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
-}
+  overflow: auto;
+ }
 .header{
   padding-top: 50px;
 }
@@ -84,25 +87,28 @@ body {
 .sell_foto img{
   width: 467px;
   height: 263px;
-  margin-right: 60px;
-  margin-left: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 .sell_text{
   float: right;
   width: 620px;
-  height: 163px;
-  margin-top: 25px;
-  margin-bottom: 15px;
+  height: 173px;
+  padding-top: 25px;
+  padding-bottom: 15px;
   font-size: 13.3px;
   line-height: 1.8;
-}
+  }
 /*FOOTER*/
 .footer{
   width:966px;
   height: 40px;
-  display: inline-block;
   margin-top:  50px;
+  margin-bottom: 10px;
   background-color: #cccccc;
+  float: left;
+  clear: both;
+  overflow: visible;
 }
 .footer li{
   display: inline-block;
